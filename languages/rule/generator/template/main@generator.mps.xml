@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model ref="r:2cde6caa-a8b5-4fd7-aa5a-0c173496d6d3(main@generator)">
+  <persistence version="9" />
+  <languages>
+    <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
+  </languages>
+  <imports>
+    <import index="dz94" ref="r:5649950c-2b72-4ed3-aaeb-8eea042d6e8d(rule.structure)" />
+  </imports>
+  <registry />
+</model>
+
