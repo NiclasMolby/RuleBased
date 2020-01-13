@@ -2,6 +2,7 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/RuleUTMStandardLib/RuleUTMStandardLib.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/RuleWithAbstraction/RuleWithAbstraction.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/RuleWithAbstractions/RuleWithAbstractions.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/RuleWithBaseExpression/RuleWithBaseExpression.mpl" folder="" />

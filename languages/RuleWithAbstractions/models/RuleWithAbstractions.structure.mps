@@ -183,7 +183,7 @@
     <property role="EcuMT" value="6341922476998987789" />
     <property role="3GE5qa" value="enums" />
     <property role="TrG5h" value="EnumListReference" />
-    <ref role="1TJDcQ" to="tpee:fz3vP1H" resolve="Type" />
+    <ref role="1TJDcQ" node="7pFo7Seyd8d" resolve="RuleExpression" />
     <node concept="1TJgyj" id="5w32ehi_L0e" role="1TKVEi">
       <property role="IQ2ns" value="6341922476998987790" />
       <property role="20kJfa" value="enumList" />
@@ -388,12 +388,11 @@
       <property role="20kJfa" value="distance" />
       <ref role="20lvS9" node="7pFo7SetGwq" resolve="Distance" />
     </node>
-    <node concept="1TJgyj" id="7pFo7SetGx7" role="1TKVEi">
-      <property role="IQ2ns" value="8533020013508347975" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
+    <node concept="1TJgyj" id="_Q9M6JjSar" role="1TKVEi">
+      <property role="IQ2ns" value="681775419221836443" />
       <property role="20kJfa" value="area" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="7pFo7SetGx6" resolve="Area" />
+      <ref role="20lvS9" node="_Q9M6JjQgg" resolve="Area" />
     </node>
   </node>
   <node concept="1TIwiD" id="7pFo7SesQaP">
@@ -424,12 +423,6 @@
       <property role="TrG5h" value="unit" />
       <ref role="AX2Wp" node="7pFo7SeMlr5" resolve="DistanceUnit" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="7pFo7SetGx6">
-    <property role="EcuMT" value="8533020013508347974" />
-    <property role="TrG5h" value="Area" />
-    <property role="34LRSv" value="SDU" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="7pFo7SevCeI">
     <property role="EcuMT" value="8533020013508854702" />
@@ -491,6 +484,57 @@
       <property role="3tVfz5" value="8533020013513758407" />
       <property role="TrG5h" value="m" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="_Q9M6Jkuqv">
+    <property role="EcuMT" value="681775419221993119" />
+    <property role="TrG5h" value="Airport" />
+    <property role="34LRSv" value="airport" />
+    <property role="3GE5qa" value="area" />
+    <ref role="1TJDcQ" node="_Q9M6JjQgg" resolve="Area" />
+  </node>
+  <node concept="1TIwiD" id="_Q9M6JjQgg">
+    <property role="EcuMT" value="681775419221828624" />
+    <property role="TrG5h" value="Area" />
+    <property role="R5$K7" value="true" />
+    <property role="3GE5qa" value="area" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="_Q9M6JjQgK">
+    <property role="EcuMT" value="681775419221828656" />
+    <property role="TrG5h" value="AreaList" />
+    <property role="19KtqR" value="true" />
+    <property role="3GE5qa" value="area" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="_Q9M6JjQgL" role="1TKVEi">
+      <property role="IQ2ns" value="681775419221828657" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="areas" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="_Q9M6JjQgg" resolve="Area" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="_Q9M6Jkuqw">
+    <property role="EcuMT" value="681775419221993120" />
+    <property role="TrG5h" value="Custom" />
+    <property role="3GE5qa" value="area" />
+    <ref role="1TJDcQ" node="_Q9M6JjQgg" resolve="Area" />
+    <node concept="PrWs8" id="_Q9M6Jkuqx" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="_Q9M6Jkuqt">
+    <property role="EcuMT" value="681775419221993117" />
+    <property role="TrG5h" value="Hospital" />
+    <property role="34LRSv" value="hospital" />
+    <property role="3GE5qa" value="area" />
+    <ref role="1TJDcQ" node="_Q9M6JjQgg" resolve="Area" />
+  </node>
+  <node concept="1TIwiD" id="_Q9M6Jkuqu">
+    <property role="EcuMT" value="681775419221993118" />
+    <property role="TrG5h" value="MilitaryBase" />
+    <property role="34LRSv" value="military base" />
+    <property role="3GE5qa" value="area" />
+    <ref role="1TJDcQ" node="_Q9M6JjQgg" resolve="Area" />
   </node>
 </model>
 
